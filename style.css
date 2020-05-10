@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.numberflex {
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  border: 5px solid #ccc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  padding: 5px;
+  border: 2px solid #ccc;
+  text-align: justify;
+  border-radius: 5px;
+  margin: 3px;
+  background: #aaa;
+}
